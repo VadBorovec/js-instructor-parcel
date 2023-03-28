@@ -1,0 +1,20 @@
+{
+  "name": "js-instructor-parcel",
+  "version": "1.0.0",
+  "description": "basic npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/VadBorovec/js-instructor-parcel.git)"
+  },
+  "author": "Vadim Borovec",
+  "license": "ISC",
+  "homepage": "https://github.com/VadBorovec/js-instructor-parcel#readme",
+  "dependencies": {
+    "joi": "^17.9.1",
+    "shortid": "^2.2.16"
+  }
+}
