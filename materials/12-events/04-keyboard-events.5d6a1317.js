@@ -1,0 +1,2 @@
+const e={output:document.querySelector(".js-output"),clearBtn:document.querySelector(".js-clear")};function t(t){console.log("event.key: ",t.key),console.log("event.code: ",t.code),e.output.textContent+=t.key}window.addEventListener("keydown",t),window.addEventListener("keypress",t),e.clearBtn.addEventListener("click",(function(){e.output.textContent=""}));
+//# sourceMappingURL=04-keyboard-events.5d6a1317.js.map

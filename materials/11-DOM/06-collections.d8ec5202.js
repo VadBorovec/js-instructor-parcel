@@ -1,0 +1,2 @@
+const o=[{label:"red",color:"#F44336"},{label:"green",color:"#4CAF50"},{label:"blue",color:"#2196F3"},{label:"grey",color:"#607D8B"},{label:"pink",color:"#E91E63"},{label:"indigo",color:"#3F51B5"}],l=document.querySelector(".js-color-picker");console.log(l);const e=o=>o.map((o=>{const l=document.createElement("button");return l.type="button",l.classList.add("color-picker__option"),l.textContent=o.label,l.style.backgroundColor=o.color,l}));console.log(e(o));const c=e(o);l.append(...c);
+//# sourceMappingURL=06-collections.d8ec5202.js.map

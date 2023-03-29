@@ -1,0 +1,2 @@
+!function(){const n=[5,10,15,20,25],e=(n.find((n=>n>10)),n.find((n=>10===n)),n.find((n=>9===n)),[{id:"player-1",name:"Mango",timePlayed:310,points:54,online:!1},{id:"player-2",name:"Poly",timePlayed:470,points:92,online:!0},{id:"player-3",name:"Kiwi",timePlayed:230,points:48,online:!0},{id:"player-4",name:"Ajax",timePlayed:150,points:71,online:!1},{id:"player-5",name:"Chelsy",timePlayed:280,points:48,online:!0}]);console.table(e);e.find((({id:n})=>"player-3"===n)),e.find((({name:n})=>"Poly"===n))}();
+//# sourceMappingURL=!08-iterating-array-mathods.e6813468.js.map

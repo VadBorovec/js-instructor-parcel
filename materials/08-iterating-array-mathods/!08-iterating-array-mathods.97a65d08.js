@@ -1,0 +1,2 @@
+!function(){const e=[{id:"player-1",name:"Mango",timePlayed:310,points:54,online:!1},{id:"player-2",name:"Poly",timePlayed:470,points:92,online:!0},{id:"player-3",name:"Kiwi",timePlayed:230,points:48,online:!0},{id:"player-4",name:"Ajax",timePlayed:150,points:71,online:!1},{id:"player-5",name:"Chelsy",timePlayed:280,points:48,online:!0}];e.every((({online:e})=>e)),e.every((e=>e.timePlayed>100)),e.some((e=>e.online)),e.some((e=>e.timePlayed>400))}();
+//# sourceMappingURL=!08-iterating-array-mathods.97a65d08.js.map
