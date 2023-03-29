@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<include src="./partials/head.html"></include>
+<link rel="stylesheet" href="./modal.css">
+
+<body>
+
+    <!-- HEADER -->
+    <include src="./partials/header.html"></include>
+    <h2 class="hidden page-title">Lesson 12</h2>
+
+    <!-- HERO -->
+    <include src="./partials/hero.html"></include>
+
+    <!-- MAIN -->
+    <main>
+        <div class="overlay" id="overlay"></div>
+        <div class="modal-window" id="modalWindov">
+            <h2>This is modal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vel, minima repudiandae provident cum eligendi enim.
+            </p>
+            <button class="close-btn" id="closeBtn">Close</button>
+        </div>
+
+        <a href="https://google.com" style="padding-left: 30px;" target="_blank" id="link">link to Google</a>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+    <!-- JS lessons -->
+    <div class="js__lessons">
+        <script src="./lesson-12.js" type="module"></script>
+    </div>
+
+</body>
+
+</html>

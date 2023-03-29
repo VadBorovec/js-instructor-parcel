@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<include src="./partials/head.html"></include>
+
+<body id="private-tasks">
+
+    <!-- HEADER -->
+    <include src="./partials/header.html"></include>
+    <h2 class="hidden page-title">Private tasks</h2>
+
+    <!-- HERO -->
+    <include src="./partials/hero.html"></include>
+
+    <!-- MAIN -->
+    <main>
+        <!-- COUNTER -->
+        <div class="counter">
+            <button class="js-decrement">Зменшити</button>
+            <p class="js-value">0</p>
+            <button class="js-increment">Збільшити</button>
+        </div>
+
+        <!-- PARTIALS -->
+        <div class="partials">
+            <h2 class="partials__header">Partials</h2>
+            <ul class="partials__list">
+                <li class="partials__item"><a href="./games/life-game/life-game.html" class="partials__link">Life
+                        Game</a>
+                </li>
+                <li class="partials__item"><a href="#" class="partials__link">Game 2</a></li>
+                <li class="partials__item"><a href="#" class="partials__link">Game 3</a></li>
+                <li class="partials__item"><a href="#" class="partials__link">Game 4</a></li>
+                <li class="partials__item"><a href="#" class="partials__link">Game 5</a></li>
+                <li class="partials__item"><a href="#" class="partials__link">Game 6</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+    <!-- JS private tasks -->
+    <div class="js__private-tasks">
+        <script src="./js/02-first-counter.js" type="module"></script>
+        <script src="./js/03-new-script.js" type="module"></script>
+    </div>
+
+</body>
+
+</html>
