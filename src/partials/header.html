@@ -1,17 +1,31 @@
 <header>
 
-    <!-- BTN TO-MAIN -->
-    <button type="button" class="back-btn">
-        <a class="back-btn__link" href="#project-page">
+    <!-- BTN BACK -->
+    <button type="button" class="back-btn" style="background-color: rgb(193, 65, 89);">
+        <a class="back-btn__link" onclick="goBack()">
             <svg class="icon" viewBox="0 0 24 24">
                 <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
             </svg>
-            <Main></Main>
+            Back
         </a>
     </button>
-    <!-- BTN BACK -->
-    <button type="button" class="button back-btn">
-        <a class="to-top__link" href="#materials">
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <!-- BTNs -->
+    <button type="button" class="back-btn">
+        <a class="back-btn__link" href="/src/index.html">
+            <svg class="icon" viewBox="0 0 24 24">
+                <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
+            </svg>
+            Main
+        </a>
+    </button>
+    <button type="button" class="back-btn">
+        <a class="back-btn__link" href="/src/materials/materials.html">
             <svg class="icon" viewBox="0 0 24 24">
                 <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
             </svg>
@@ -19,7 +33,7 @@
         </a>
     </button>
     <button type="button" class="button back-btn">
-        <a class="to-top__link" href="#lessons">
+        <a class="back-btn__link" href="/src/lessons/lessons.html">
             <svg class="icon" viewBox="0 0 24 24">
                 <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
             </svg>
@@ -27,7 +41,7 @@
         </a>
     </button>
     <button type="button" class="button back-btn">
-        <a class="to-top__link" href="#weekend">
+        <a class="back-btn__link" href="/src/lesons-weekend/lessons-weekend.html">
             <svg class="icon" viewBox="0 0 24 24">
                 <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
             </svg>
@@ -35,7 +49,7 @@
         </a>
     </button>
     <button type="button" class="button back-btn">
-        <a class="to-top__link" href="#autocheck">
+        <a class="back-btn__link" href="/src/lessons-autocheck/autocheck.html">
             <svg class="icon" viewBox="0 0 24 24">
                 <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
             </svg>
@@ -43,7 +57,7 @@
         </a>
     </button>
     <button type="button" class="button back-btn">
-        <a class="to-top__link" href="#private-tasks">
+        <a class="back-btn__link" href="/src/private-tasks/private-tasks.html">
             <svg class="icon" viewBox="0 0 24 24">
                 <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
             </svg>
@@ -55,6 +69,6 @@
     <h1 class="page-header">Main</h1>
 
     <!-- JS FOR PAGE TITLE -->
-    <!-- <script type="module" src="./js/03-page-title.js"></script> -->
+    <script type="module" src="/src/js/03-page-title.js"></script>
 
 </header>

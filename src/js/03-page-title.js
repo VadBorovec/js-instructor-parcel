@@ -6,13 +6,13 @@ document.title = PAGE_TITLE.textContent;
 pageHeader.textContent = PAGE_TITLE.textContent;
 
 //* HIDE BACK BTN
-const backBtn = document.querySelector('.back-btn');
+const backBtn = document.querySelectorAll('.back-btn');
 
 hideBackBtn();
 
 function hideBackBtn() {
   if (PAGE_TITLE.textContent === 'Main') {
-    backBtn.classList.add('hidden');
+    backBtn.forEach(btn => btn.classList.add('hidden'));
   }
   return;
 }

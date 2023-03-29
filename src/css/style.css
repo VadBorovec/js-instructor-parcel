@@ -29,20 +29,22 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+
+/* STYLES FOR HIDDEN  */
+.hidden {
+    display: none;
+}
+
 /* ----------------------------------------------------------- */
 /* STYLES FOR BACK BTN */
+
 .back-btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 48px;
-    padding: 12px 24px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     color: #fff;
     background-color: #f68768;
     box-shadow: 0 2px 5px rgba(211, 37, 37, 0.7);
@@ -60,20 +62,19 @@ button {
     box-shadow: none;
 }
 
-.back-btn>a {
+.back-btn__link {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 1.5rem;
     text-decoration: inherit;
     color: inherit;
 }
 
 .back-btn .icon {
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
     fill: inherit;
 }
-
-/* .to-main .icon {
-    transform: rotate(90deg);
-} */
 
 /* ----------------------------------------------------------- */
 /* STYLES FOR MAGIC BTN */
@@ -172,29 +173,29 @@ button {
 /* ----------------------------------------------------------- */
 /* STYLES FOR PARTIALS */
 
-.partials, .materials__wrap {
+.materials__wrap {
     padding: 1.6rem;
     max-width: 30rem;
 }
 
-.partials__header {
+.materials__header {
     font-size: 2rem;
     font-weight: bold;
     padding-left: 2rem;
     margin-bottom: 1rem;
 }
 
-.partials__list, .materials__list {
+.materials__list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.partials__item, .materials__item {
+.materials__item {
     margin-bottom: 0.5rem;
 }
 
-.partials__link, .materials__link {
+.materials__link {
     display: block;
     padding: 0.5rem;
     color: #333;
@@ -204,7 +205,6 @@ button {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.partials__link:hover,
 .materials__link:hover {
     color: #4ae4c2;
     background-image: linear-gradient(to right, #fc354c, #0abfbc);
