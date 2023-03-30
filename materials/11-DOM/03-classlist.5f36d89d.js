@@ -1,2 +1,0 @@
-const s=document.querySelector(".js-magic-btn"),e=document.querySelector(".site-nav");console.log(e.classList),e.classList.add("super-cool"),e.classList.remove("site-nav"),e.classList.replace("super-cool","second-super-cool"),s.addEventListener("click",(()=>{e.classList.toggle("qwerty")})),console.log(e.classList.contains("querty")),console.log(e.classList.contains("second-super-cool"));const o=document.querySelector('.site-nav__link[href="/portfolio"]');console.log(o),o.classList.add("site-nav__link--current");
-//# sourceMappingURL=03-classlist.5f36d89d.js.map

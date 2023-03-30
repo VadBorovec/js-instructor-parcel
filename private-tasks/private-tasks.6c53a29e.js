@@ -1,2 +1,0 @@
-!function(){const e={value:0,increment(){this.value+=1},decrement(){this.value-=1}},n=document.querySelector(".js-decrement"),t=document.querySelector(".js-increment"),c=document.querySelector(".js-value");n.addEventListener("click",(function(){console.log("Click on decrementBtn"),e.decrement(),c.textContent=e.value})),t.addEventListener("click",(function(){console.log("Click on incrementBtn"),e.increment(),c.textContent=e.value}))}();
-//# sourceMappingURL=private-tasks.6c53a29e.js.map

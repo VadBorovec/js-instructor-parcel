@@ -1,2 +1,0 @@
-const e=document.querySelector(".js-target-btn"),o=document.querySelector(".js-add-listener"),n=document.querySelector(".js-remove-listener");function c(e){console.log(e),console.log("Клик по целевой кнопке")}o.addEventListener("click",(o=>{console.log(o),console.log("Вешаю слушателя события на целевую кнопку"),e.addEventListener("click",c)})),n.addEventListener("click",(o=>{console.log(o),console.log("Снимаю слушателя события с целевой кнопки"),e.removeEventListener("click",c)}));
-//# sourceMappingURL=01-event-listeners.a3ed6462.js.map

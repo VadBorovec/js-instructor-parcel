@@ -1,2 +1,0 @@
-!function(){const t=document.querySelector(".js-coords");let e=0;window.addEventListener("mousemove",_.throttle((function(n){e+=1,t.textContent=`\n    Кол-во вызовов onMouseMove: ${e},\n    X: ${n.clientX},\n    Y:${n.clientY}\n  `}),250));const n=document.querySelector(".js-input"),o=document.querySelector(".js-output");let u=0;n.addEventListener("input",_.debounce((function(t){u+=1,o.textContent=`\n    Кол-во вызовов onInputChange: ${u},\n    Значение: ${t.target.value}\n  `}),300))}();
-//# sourceMappingURL=01-chatty-events.699b036d.js.map
