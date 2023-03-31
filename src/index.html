@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+
+<!-- HEAD -->
+<include src="./partials/head.html"></include>
+
+<body>
+
+  <!-- HEADER -->
+  <include src="./partials/header.html"></include>
+  <h2 class="hidden page-title">Main</h2>
+
+  <!-- HERO -->
+  <include src="./partials/hero.html"></include>
+
+  <!-- MAIN -->
+  <main>
+    <div class="materials__wrap">
+      <h2 class="materials__header">Content</h2>
+      <ul class="materials__list">
+        <li class="materials__item"><a href="#" class="materials__link">Materials</a>
+        </li>
+        <li class="materials__item"><a href="#" class="materials__link">Lessons</a></li>
+        <li class="materials__item"><a href="#" class="materials__link">Weekend
+            lessons</a></li>
+        <li class="materials__item"><a href="./pages/homeworks/homeworks.html" class="materials__link">Homework</a></li>
+        <li class="materials__item"><a href="#" class="materials__link">Autocheck</a>
+        </li>
+        <li class="materials__item"><a href="#" class="materials__link">Private
+            tasks</a></li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <include src="./partials/footer.html"></include>
+
+
+</body>
+
 </html>
