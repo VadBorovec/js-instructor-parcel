@@ -7,6 +7,9 @@
     "start": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /js-instructor-parcel/"
   },
+    "transformers": {
+    "*.hbs": ["parcel-transformer-handlebars-precompile"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VadBorovec/js-instructor-parcel.git"
@@ -23,12 +26,14 @@
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-handlebars": "^2.0.0",
     "parcel": "^2.6.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
